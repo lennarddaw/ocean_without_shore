@@ -16,6 +16,7 @@ import FormalRaumSlide from './slides/FormalRaumSlide'
 import FormalFarbeLichtSlide from './slides/FormalFarbeLichtSlide'
 import FormalBewegungZeitSlide from './slides/FormalBewegungZeitSlide'
 import FormalKlangSlide from './slides/FormalKlangSlide'
+import FormalSyntheseSlide from './slides/FormalSyntheseSlide'
 import ThemeLifeDeathSlide from './slides/ThemeLifeDeathSlide'
 import ThemeLiminalitySlide from './slides/ThemeLiminalitySlide'
 import ThemeSpiritualSlide from './slides/ThemeSpiritualSlide'
@@ -35,6 +36,7 @@ const slides = [
   FormalFarbeLichtSlide,
   FormalBewegungZeitSlide,
   FormalKlangSlide,
+  FormalSyntheseSlide,
   MainWorksSlide,
   WorkDataSlide,
   VenueSlide,
