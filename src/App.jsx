@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import Navigation from './components/Navigation'
 import ZoomControl from './components/ZoomControl'
 
@@ -70,6 +70,38 @@ export default function App() {
 
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [nextSlide, prevSlide])
+
+  // Touch swipe navigation for mobile
+  const touchStartX = useRef(null)
+  const touchStartY = useRef(null)
+
+  useEffect(() => {
+    const handleTouchStart = (e) => {
+      touchStartX.current = e.touches[0].clientX
+      touchStartY.current = e.touches[0].clientY
+    }
+
+    const handleTouchEnd = (e) => {
+      if (touchStartX.current === null) return
+      const deltaX = e.changedTouches[0].clientX - touchStartX.current
+      const deltaY = e.changedTouches[0].clientY - touchStartY.current
+
+      // Only trigger if horizontal swipe is dominant and long enough
+      if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY)) {
+        if (deltaX < 0) nextSlide()
+        else prevSlide()
+      }
+      touchStartX.current = null
+      touchStartY.current = null
+    }
+
+    window.addEventListener('touchstart', handleTouchStart, { passive: true })
+    window.addEventListener('touchend', handleTouchEnd, { passive: true })
+    return () => {
+      window.removeEventListener('touchstart', handleTouchStart)
+      window.removeEventListener('touchend', handleTouchEnd)
+    }
   }, [nextSlide, prevSlide])
 
   const CurrentSlideComponent = slides[currentSlide]

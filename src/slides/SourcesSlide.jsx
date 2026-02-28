@@ -27,17 +27,17 @@ export default function SourcesSlide() {
   return (
     <Slide>
       <div className="max-w-6xl mx-auto w-full">
-        <div className="grid grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {/* Sources */}
           <div>
-            <div className="flex items-center gap-3 mb-8">
-              <BookOpen className="w-6 h-6 text-viola-gold" />
-              <h2 className="text-xl tracking-[0.3em] uppercase text-viola-muted">Quellen</h2>
+            <div className="flex items-center gap-3 mb-4 sm:mb-8">
+              <BookOpen className="w-5 h-5 sm:w-6 sm:h-6 text-viola-gold" />
+              <h2 className="text-base sm:text-lg md:text-xl tracking-[0.3em] uppercase text-viola-muted">Quellen</h2>
             </div>
             <div className="space-y-0">
               {sources.map((s, i) => (
-                <div key={i} className="py-2 border-b border-white/5 last:border-0">
-                  <span className="text-viola-light/70 text-lg">{s}</span>
+                <div key={i} className="py-1.5 sm:py-2 border-b border-white/5 last:border-0">
+                  <span className="text-viola-light/70 text-sm sm:text-base md:text-lg">{s}</span>
                 </div>
               ))}
             </div>
@@ -45,14 +45,14 @@ export default function SourcesSlide() {
 
           {/* Discussion */}
           <div>
-            <div className="flex items-center gap-3 mb-8">
-              <MessageCircle className="w-6 h-6 text-viola-gold" />
-              <h2 className="text-xl tracking-[0.3em] uppercase text-viola-muted">Diskussion</h2>
+            <div className="flex items-center gap-3 mb-4 sm:mb-8">
+              <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 text-viola-gold" />
+              <h2 className="text-base sm:text-lg md:text-xl tracking-[0.3em] uppercase text-viola-muted">Diskussion</h2>
             </div>
-            <div className="space-y-5">
+            <div className="space-y-3 sm:space-y-5">
               {questions.map((q, i) => (
-                <div key={i} className="p-6 rounded-lg border border-white/5 bg-viola-surface/50">
-                  <p className="text-viola-light text-2xl leading-relaxed">{q}</p>
+                <div key={i} className="p-4 sm:p-6 rounded-lg border border-white/5 bg-viola-surface/50">
+                  <p className="text-viola-light text-base sm:text-lg md:text-2xl leading-relaxed">{q}</p>
                 </div>
               ))}
             </div>

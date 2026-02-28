@@ -4,7 +4,7 @@ export default function Navigation({ currentSlide, totalSlides, onPrev, onNext, 
   const isFirstSlide = currentSlide === 0
 
   return (
-    <div className={`fixed bottom-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 ${
+    <div className={`fixed bottom-0 left-0 right-0 z-50 flex items-center justify-between px-3 sm:px-6 py-3 sm:py-4 ${
       isFirstSlide
         ? 'bg-transparent'
         : 'bg-viola-black/80 backdrop-blur-sm border-t border-white/5'
@@ -18,7 +18,7 @@ export default function Navigation({ currentSlide, totalSlides, onPrev, onNext, 
       </button>
 
       <div className="flex items-center gap-3">
-        <div className="flex items-center gap-1.5">
+        <div className="hidden sm:flex items-center gap-1.5">
           {Array.from({ length: totalSlides }, (_, i) => (
             <button
               key={i}
@@ -31,7 +31,7 @@ export default function Navigation({ currentSlide, totalSlides, onPrev, onNext, 
             />
           ))}
         </div>
-        <span className="text-xs text-viola-muted ml-2 tabular-nums">
+        <span className="text-xs text-viola-muted tabular-nums">
           {currentSlide + 1} / {totalSlides}
         </span>
       </div>

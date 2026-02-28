@@ -16,10 +16,10 @@ export default function WorkDataSlide() {
   return (
     <Slide>
       <div className="max-w-6xl mx-auto w-full">
-        <h2 className="text-xl tracking-[0.3em] uppercase text-viola-muted mb-6">Das Werk</h2>
-        <h3 className="text-5xl font-light text-viola-light mb-10">Werkdaten</h3>
+        <h2 className="text-base sm:text-lg md:text-xl tracking-[0.3em] uppercase text-viola-muted mb-4 sm:mb-6">Das Werk</h2>
+        <h3 className="text-3xl sm:text-4xl md:text-5xl font-light text-viola-light mb-6 sm:mb-8 md:mb-10">Werkdaten</h3>
 
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
           <div>
             <img
               src="/images/ocean-installation-ngv2.jpg"
@@ -30,9 +30,9 @@ export default function WorkDataSlide() {
 
           <div className="space-y-0">
             {data.map((d, i) => (
-              <div key={i} className="flex gap-6 py-3 border-b border-white/5">
-                <span className="text-viola-gold text-lg uppercase tracking-wider shrink-0 w-28">{d.label}</span>
-                <span className="text-viola-light text-xl">{d.value}</span>
+              <div key={i} className="flex flex-col sm:flex-row gap-1 sm:gap-6 py-2 sm:py-3 border-b border-white/5">
+                <span className="text-viola-gold text-sm sm:text-lg uppercase tracking-wider shrink-0 sm:w-28">{d.label}</span>
+                <span className="text-viola-light text-base sm:text-lg md:text-xl">{d.value}</span>
               </div>
             ))}
           </div>

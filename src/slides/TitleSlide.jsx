@@ -20,21 +20,21 @@ export default function TitleSlide() {
       )}
 
       <div className="relative flex flex-col items-center justify-center text-center max-w-5xl mx-auto">
-        <div className="w-20 h-px bg-viola-gold/40 mb-10" />
+        <div className="w-14 sm:w-20 h-px bg-viola-gold/40 mb-6 sm:mb-10" />
 
-        <p className="text-2xl tracking-[0.3em] uppercase text-viola-muted font-light mb-6">
+        <p className="text-lg sm:text-xl md:text-2xl tracking-[0.3em] uppercase text-viola-muted font-light mb-4 sm:mb-6">
           Bill Viola
         </p>
 
-        <h1 className="text-8xl font-light text-viola-light leading-tight mb-4">
+        <h1 className="text-4xl sm:text-6xl lg:text-8xl font-light text-viola-light leading-tight mb-3 sm:mb-4">
           Ocean Without
           <br />
           <span className="italic text-viola-gold">a Shore</span>
         </h1>
 
-        <div className="w-10 h-px bg-viola-muted/30 my-8" />
+        <div className="w-10 h-px bg-viola-muted/30 my-4 sm:my-8" />
 
-        <p className="text-viola-muted text-xl tracking-widest uppercase mb-10">
+        <p className="text-viola-muted text-base sm:text-lg md:text-xl tracking-widest uppercase mb-6 sm:mb-10">
           2007 &nbsp;&middot;&nbsp; 52. Biennale di Venezia
         </p>
 

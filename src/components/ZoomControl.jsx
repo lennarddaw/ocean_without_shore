@@ -23,7 +23,7 @@ export default function ZoomControl() {
   }
 
   return (
-    <div className="fixed top-4 right-4 z-50 flex items-center gap-1 bg-viola-black/60 backdrop-blur-sm rounded-lg border border-white/5 p-1">
+    <div className="hidden md:flex fixed top-4 right-4 z-50 items-center gap-1 bg-viola-black/60 backdrop-blur-sm rounded-lg border border-white/5 p-1">
       <button
         onClick={handleZoomOut}
         disabled={zoomIndex === 0}

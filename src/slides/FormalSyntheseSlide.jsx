@@ -4,11 +4,11 @@ export default function FormalSyntheseSlide() {
   return (
     <Slide>
       <div className="max-w-6xl mx-auto w-full">
-        <h2 className="text-xl tracking-[0.3em] uppercase text-viola-muted mb-2">Formale Analyse — Synthese</h2>
-        <h3 className="text-5xl font-light text-viola-light mb-8">Warum genau so?</h3>
+        <h2 className="text-base sm:text-lg md:text-xl tracking-[0.3em] uppercase text-viola-muted mb-2">Formale Analyse — Synthese</h2>
+        <h3 className="text-2xl sm:text-3xl md:text-5xl font-light text-viola-light mb-6 sm:mb-8">Warum genau so?</h3>
 
-        <div className="grid grid-cols-5 gap-8 items-start">
-          <div className="col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 items-start">
+          <div className="md:col-span-2">
             <img
               src="/images/2010_22_l.jpg"
               alt="Ocean Without a Shore — Schwellenmoment"
@@ -16,7 +16,7 @@ export default function FormalSyntheseSlide() {
             />
           </div>
 
-          <div className="col-span-3 space-y-3">
+          <div className="md:col-span-3 space-y-3">
             <div className="pl-4 border-l-2 border-viola-gold/40">
               <p className="text-viola-light text-base"><span className="text-viola-gold">Triptychon</span> — nicht frei gewählt, sondern durch die drei Steinaltäre der Chiesa di San Gallo physisch vorgegeben; Altäre sind liturgisch der Verbindungspunkt zwischen Lebenden und Toten</p>
             </div>
