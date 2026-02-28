@@ -8,24 +8,35 @@ export default function VideoArtSlide() {
         <h2 className="text-xl tracking-[0.3em] uppercase text-viola-muted mb-6">Kunsthistorischer Kontext</h2>
         <h3 className="text-5xl font-light text-viola-light mb-10">Videokunst</h3>
 
-        <div className="grid grid-cols-2 gap-10">
-          <div className="space-y-4">
-            <ImagePlaceholder src="/images/paik-sfmoma.jpg" label="Nam June Paik — SFMOMA" aspect="aspect-[16/10]" />
-            <ImagePlaceholder label="Frühe Videokunst (1960er/70er)" aspect="aspect-[16/10]" />
+        <div className="grid grid-cols-2 gap-10 items-start">
+          <div>
+            <img
+              src="/images/Bill-Viola-Ocean-Without-a-Shore-detail-2007-High-definition-color-video-triptych-Photo-Kira-Perov-web.jpg"
+              alt="Bill Viola — Ocean Without a Shore (Detail)"
+              className="w-full rounded-lg"
+            />
           </div>
 
-          <div className="space-y-8">
+          <div className="space-y-6">
             <div>
-              <h4 className="text-viola-gold text-2xl mb-3">1. Generation — 1960er</h4>
-              <p className="text-viola-light/70 text-2xl">Nam June Paik, Wolf Vostell — konzeptuell, Fluxus</p>
+              <h4 className="text-viola-gold text-2xl mb-2">Was ist Videokunst?</h4>
+              <p className="text-viola-light/70 text-lg">Kunstform, die bewegte Bilder als eigenständiges Medium nutzt — nicht Film, nicht Fernsehen, sondern Kunst</p>
             </div>
             <div>
-              <h4 className="text-viola-gold text-2xl mb-3">2. Generation — 1970er</h4>
-              <p className="text-viola-light/70 text-2xl">Bill Viola — spirituelle Tiefe statt Ironie</p>
+              <h4 className="text-viola-gold text-2xl mb-2">Entstehung — 1960er</h4>
+              <p className="text-viola-light/70 text-lg">Pioniere wie Nam June Paik & Wolf Vostell nutzen Video als Protest gegen Massenmedien (Fluxus)</p>
+            </div>
+            <div>
+              <h4 className="text-viola-gold text-2xl mb-2">Violas Ansatz — ab 1970er</h4>
+              <p className="text-viola-light/70 text-lg">Extreme Zeitlupe, hochauflösende Projektion, immersive Rauminstallationen — Emotion statt Konzept</p>
+            </div>
+            <div>
+              <h4 className="text-viola-gold text-2xl mb-2">Technik als Werkzeug</h4>
+              <p className="text-viola-light/70 text-lg">Nutzt HD-Video, Unterwasserkameras & Mehrkanal-Projektionen, um unsichtbare Prozesse sichtbar zu machen</p>
             </div>
             <div className="pt-4 border-t border-white/5">
-              <p className="text-viola-light/50 text-xl">
-                Viola erhebt Videokunst zur anerkannten Kunstform
+              <p className="text-viola-light/50 text-lg">
+                Viola erhebt Videokunst von der Nische zur international anerkannten Kunstform
               </p>
             </div>
           </div>

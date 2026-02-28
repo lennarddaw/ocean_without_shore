@@ -4,7 +4,6 @@ import ZoomControl from './components/ZoomControl'
 
 import TitleSlide from './slides/TitleSlide'
 import BiographySlide from './slides/BiographySlide'
-import PhilosophySlide from './slides/PhilosophySlide'
 import VideoArtSlide from './slides/VideoArtSlide'
 import MainWorksSlide from './slides/MainWorksSlide'
 import WorkDataSlide from './slides/WorkDataSlide'
@@ -23,7 +22,6 @@ import SourcesSlide from './slides/SourcesSlide'
 const slides = [
   TitleSlide,
   BiographySlide,
-  PhilosophySlide,
   VideoArtSlide,
   MainWorksSlide,
   WorkDataSlide,
@@ -76,13 +74,15 @@ export default function App() {
     <div className="min-h-screen bg-viola-black">
       <CurrentSlideComponent key={currentSlide} />
 
-      <Navigation
-        currentSlide={currentSlide}
-        totalSlides={slides.length}
-        onPrev={prevSlide}
-        onNext={nextSlide}
-        onGoTo={goToSlide}
-      />
+      {currentSlide > 0 && (
+        <Navigation
+          currentSlide={currentSlide}
+          totalSlides={slides.length}
+          onPrev={prevSlide}
+          onNext={nextSlide}
+          onGoTo={goToSlide}
+        />
+      )}
 
       <ZoomControl />
     </div>
