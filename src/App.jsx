@@ -5,11 +5,9 @@ import ZoomControl from './components/ZoomControl'
 import TitleSlide from './slides/TitleSlide'
 import BiographySlide from './slides/BiographySlide'
 import VideoArtSlide from './slides/VideoArtSlide'
-import MainWorksSlide from './slides/MainWorksSlide'
 import WorkDataSlide from './slides/WorkDataSlide'
 import VenueSlide from './slides/VenueSlide'
 import VisualProcessSlide from './slides/VisualProcessSlide'
-import TechnicalSlide from './slides/TechnicalSlide'
 import FormalAnalysisSlide from './slides/FormalAnalysisSlide'
 import FormalKompositionSlide from './slides/FormalKompositionSlide'
 import FormalRaumSlide from './slides/FormalRaumSlide'
@@ -19,9 +17,7 @@ import FormalKlangSlide from './slides/FormalKlangSlide'
 import FormalSyntheseSlide from './slides/FormalSyntheseSlide'
 import ThemeLifeDeathSlide from './slides/ThemeLifeDeathSlide'
 import ThemeLiminalitySlide from './slides/ThemeLiminalitySlide'
-import ThemeSpiritualSlide from './slides/ThemeSpiritualSlide'
 import InterpretationSlide from './slides/InterpretationSlide'
-import ComparisonSlide from './slides/ComparisonSlide'
 import ConclusionSlide from './slides/ConclusionSlide'
 import SourcesSlide from './slides/SourcesSlide'
 
@@ -38,14 +34,10 @@ const slides = [
   FormalBewegungZeitSlide,
   FormalKlangSlide,
   FormalSyntheseSlide,
-  MainWorksSlide,
   VenueSlide,
-  TechnicalSlide,
   ThemeLifeDeathSlide,
   ThemeLiminalitySlide,
-  ThemeSpiritualSlide,
   InterpretationSlide,
-  ComparisonSlide,
   ConclusionSlide,
   SourcesSlide,
 ]
