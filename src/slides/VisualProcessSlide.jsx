@@ -47,10 +47,10 @@ export default function VisualProcessSlide() {
         </div>
 
         <div className="grid grid-cols-4 gap-4 mt-8">
-          <ImagePlaceholder label="Phase 1 — S/W Silhouette" aspect="aspect-[3/4]" />
-          <ImagePlaceholder src="/images/ocean-still-2.jpg" label="Phase 2 — Annäherung" aspect="aspect-[3/4]" />
-          <ImagePlaceholder src="/images/ocean-still-1.jpg" label="Phase 3 — Durchquerung" aspect="aspect-[3/4]" />
-          <ImagePlaceholder label="Phase 4 — Rückkehr" aspect="aspect-[3/4]" />
+          <ImagePlaceholder src="/images/ocean-still-2.jpg" label="Phase 1 — S/W Silhouette" aspect="aspect-[3/4]" />
+          <ImagePlaceholder src="/images/ocean-still-1.jpg" label="Phase 2 — Annäherung" aspect="aspect-[3/4]" />
+          <ImagePlaceholder src="/images/ocean-phase-c.jpg" label="Phase 3 — Durchquerung" aspect="aspect-[3/4]" />
+          <ImagePlaceholder src="/images/ocean-phase-d.jpg" label="Phase 4 — Rückkehr" aspect="aspect-[3/4]" />
         </div>
       </div>
     </Slide>

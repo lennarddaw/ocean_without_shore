@@ -11,6 +11,11 @@ import VenueSlide from './slides/VenueSlide'
 import VisualProcessSlide from './slides/VisualProcessSlide'
 import TechnicalSlide from './slides/TechnicalSlide'
 import FormalAnalysisSlide from './slides/FormalAnalysisSlide'
+import FormalKompositionSlide from './slides/FormalKompositionSlide'
+import FormalRaumSlide from './slides/FormalRaumSlide'
+import FormalFarbeLichtSlide from './slides/FormalFarbeLichtSlide'
+import FormalBewegungZeitSlide from './slides/FormalBewegungZeitSlide'
+import FormalKlangSlide from './slides/FormalKlangSlide'
 import ThemeLifeDeathSlide from './slides/ThemeLifeDeathSlide'
 import ThemeLiminalitySlide from './slides/ThemeLiminalitySlide'
 import ThemeSpiritualSlide from './slides/ThemeSpiritualSlide'
@@ -23,12 +28,17 @@ const slides = [
   TitleSlide,
   BiographySlide,
   VideoArtSlide,
+  VisualProcessSlide,
+  FormalAnalysisSlide,
+  FormalKompositionSlide,
+  FormalRaumSlide,
+  FormalFarbeLichtSlide,
+  FormalBewegungZeitSlide,
+  FormalKlangSlide,
   MainWorksSlide,
   WorkDataSlide,
   VenueSlide,
-  VisualProcessSlide,
   TechnicalSlide,
-  FormalAnalysisSlide,
   ThemeLifeDeathSlide,
   ThemeLiminalitySlide,
   ThemeSpiritualSlide,
