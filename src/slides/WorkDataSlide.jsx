@@ -21,7 +21,11 @@ export default function WorkDataSlide() {
 
         <div className="grid grid-cols-2 gap-10">
           <div>
-            <ImagePlaceholder src="/images/ocean-installation-ngv2.jpg" label="Installationsansicht" aspect="aspect-[4/3]" />
+            <img
+              src="/images/ocean-installation-ngv2.jpg"
+              alt="Installationsansicht"
+              className="w-full rounded-lg"
+            />
           </div>
 
           <div className="space-y-0">
