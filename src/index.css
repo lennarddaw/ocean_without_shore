@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    @apply bg-viola-black text-viola-light font-sans antialiased;
+    overflow: hidden;
+  }
+
+  ::selection {
+    @apply bg-viola-gold/30 text-white;
+  }
+}
+
+@layer utilities {
+  .slide-fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
