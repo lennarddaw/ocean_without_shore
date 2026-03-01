@@ -36,7 +36,7 @@ export default function SourcesSlide() {
             </div>
             <div className="space-y-0">
               {sources.map((s, i) => (
-                <div key={i} className="py-1.5 sm:py-2 border-b border-white/5 last:border-0">
+                <div key={i} className="py-1.5 sm:py-2 border-b border-black/8 last:border-0">
                   <span className="text-viola-light/70 text-sm sm:text-base md:text-lg">{s}</span>
                 </div>
               ))}
@@ -51,7 +51,7 @@ export default function SourcesSlide() {
             </div>
             <div className="space-y-3 sm:space-y-5">
               {questions.map((q, i) => (
-                <div key={i} className="p-4 sm:p-6 rounded-lg border border-white/5 bg-viola-surface/50">
+                <div key={i} className="p-4 sm:p-6 rounded-lg border border-black/8 bg-viola-surface/50">
                   <p className="text-viola-light text-base sm:text-lg md:text-2xl leading-relaxed">{q}</p>
                 </div>
               ))}

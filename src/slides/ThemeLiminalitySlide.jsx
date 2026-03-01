@@ -22,7 +22,7 @@ export default function ThemeLiminalitySlide() {
               { label: 'Ontologisch', desc: 'Sein ↔ Nichtsein' },
               { label: 'Temporal', desc: 'Tote ↔ Lebende' },
             ].map((item, i) => (
-              <div key={i} className="flex gap-3 sm:gap-6 items-baseline py-2 border-b border-white/5">
+              <div key={i} className="flex gap-3 sm:gap-6 items-baseline py-2 border-b border-black/8">
                 <span className="text-viola-water text-base sm:text-lg md:text-xl font-medium shrink-0 w-28 sm:w-36">{item.label}</span>
                 <span className="text-viola-light text-base sm:text-lg md:text-xl">{item.desc}</span>
               </div>

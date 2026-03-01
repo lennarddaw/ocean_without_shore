@@ -23,11 +23,11 @@ export default function ZoomControl() {
   }
 
   return (
-    <div className="hidden md:flex fixed top-4 right-4 z-50 items-center gap-1 bg-viola-black/60 backdrop-blur-sm rounded-lg border border-white/5 p-1">
+    <div className="hidden md:flex fixed top-4 right-4 z-50 items-center gap-1 bg-viola-black/60 backdrop-blur-sm rounded-lg border border-black/8 p-1">
       <button
         onClick={handleZoomOut}
         disabled={zoomIndex === 0}
-        className="p-1.5 rounded transition-all hover:bg-white/10 disabled:opacity-20 disabled:cursor-not-allowed"
+        className="p-1.5 rounded transition-all hover:bg-black/5 disabled:opacity-20 disabled:cursor-not-allowed"
       >
         <ZoomOut className="w-4 h-4 text-viola-muted" />
       </button>
@@ -39,7 +39,7 @@ export default function ZoomControl() {
       <button
         onClick={handleZoomIn}
         disabled={zoomIndex === ZOOM_LEVELS.length - 1}
-        className="p-1.5 rounded transition-all hover:bg-white/10 disabled:opacity-20 disabled:cursor-not-allowed"
+        className="p-1.5 rounded transition-all hover:bg-black/5 disabled:opacity-20 disabled:cursor-not-allowed"
       >
         <ZoomIn className="w-4 h-4 text-viola-muted" />
       </button>

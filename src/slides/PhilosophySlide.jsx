@@ -11,7 +11,7 @@ export default function PhilosophySlide() {
           <div className="space-y-4 sm:space-y-6">
             <div className="flex flex-wrap gap-2 sm:gap-3 mb-2 sm:mb-4">
               {['Leben & Tod', 'Zeit', 'Licht / Dunkel', 'Wasser', 'Das Erhabene'].map((t, i) => (
-                <span key={i} className="px-3 sm:px-5 py-1.5 sm:py-2.5 rounded-full border border-white/10 text-base sm:text-lg md:text-2xl text-viola-light/70">
+                <span key={i} className="px-3 sm:px-5 py-1.5 sm:py-2.5 rounded-full border border-black/10 text-base sm:text-lg md:text-2xl text-viola-light/70">
                   {t}
                 </span>
               ))}

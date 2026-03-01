@@ -15,7 +15,7 @@ export default function ImagePlaceholder({ label = '', src, className = '', aspe
   }
 
   return (
-    <div className={`${aspect} rounded-lg border border-white/10 bg-viola-surface flex flex-col items-center justify-center gap-3 ${className}`}>
+    <div className={`${aspect} rounded-lg border border-black/10 bg-viola-surface flex flex-col items-center justify-center gap-3 ${className}`}>
       <Image className="w-8 h-8 text-viola-muted/20" />
       {label && <span className="text-viola-muted/30 text-sm text-center px-4">{label}</span>}
     </div>

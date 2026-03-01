@@ -20,7 +20,7 @@ export default function VideoArtSlide() {
           <div className="space-y-4 sm:space-y-6">
             <div>
               <h4 className="text-viola-gold text-lg sm:text-xl md:text-2xl mb-1 sm:mb-2">Was ist Videokunst?</h4>
-              <p className="text-viola-light/70 text-base sm:text-lg">Kunstform, die bewegte Bilder als eigenständiges Medium nutzt — nicht Film, nicht Fernsehen, sondern Kunst</p>
+              <p className="text-viola-light/70 text-base sm:text-lg">Bewegte Bilder als eigenständiges Medium — kein Film, kein Fernsehen, sondern Kunst</p>
             </div>
             <div>
               <h4 className="text-viola-gold text-lg sm:text-xl md:text-2xl mb-1 sm:mb-2">Entstehung — 1960er</h4>
@@ -28,15 +28,15 @@ export default function VideoArtSlide() {
             </div>
             <div>
               <h4 className="text-viola-gold text-lg sm:text-xl md:text-2xl mb-1 sm:mb-2">Violas Ansatz — ab 1970er</h4>
-              <p className="text-viola-light/70 text-base sm:text-lg">Extreme Zeitlupe, hochauflösende Projektion, immersive Rauminstallationen — Emotion statt Konzept</p>
+              <p className="text-viola-light/70 text-base sm:text-lg">Extreme Zeitlupe, hochauflösende Projektionen, raumfüllende Installationen — es geht um Gefühl, nicht Konzept</p>
             </div>
             <div>
               <h4 className="text-viola-gold text-lg sm:text-xl md:text-2xl mb-1 sm:mb-2">Technik als Werkzeug</h4>
-              <p className="text-viola-light/70 text-base sm:text-lg">Nutzt HD-Video, Unterwasserkameras & Mehrkanal-Projektionen, um unsichtbare Prozesse sichtbar zu machen</p>
+              <p className="text-viola-light/70 text-base sm:text-lg">HD-Video, Unterwasserkameras, Mehrkanal-Projektionen — er macht sichtbar, was sonst verborgen bleibt</p>
             </div>
-            <div className="pt-3 sm:pt-4 border-t border-white/5">
+            <div className="pt-3 sm:pt-4 border-t border-black/8">
               <p className="text-viola-light/50 text-base sm:text-lg">
-                Viola erhebt Videokunst von der Nische zur international anerkannten Kunstform
+                Mit Viola kam die Videokunst raus aus der Nische und rein in die großen Museen
               </p>
             </div>
           </div>

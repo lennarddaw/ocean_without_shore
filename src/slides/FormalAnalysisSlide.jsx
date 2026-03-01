@@ -29,7 +29,7 @@ export default function FormalAnalysisSlide() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-8 mt-8 sm:mt-14 pt-4 sm:pt-6 border-t border-white/5">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-8 mt-8 sm:mt-14 pt-4 sm:pt-6 border-t border-black/8">
           <span className="text-viola-muted text-base sm:text-lg md:text-xl italic">&bdquo;Rembrandt des Videozeitalters&ldquo;</span>
           <span className="text-viola-muted text-base sm:text-lg md:text-xl italic">&bdquo;Hi-Tech-Caravaggio&ldquo;</span>
         </div>

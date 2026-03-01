@@ -27,7 +27,7 @@ export default function BiographySlide() {
                 <p className="text-viola-light text-base sm:text-lg md:text-2xl">Einflüsse: Zen-Buddhismus, christliche Mystik, Sufismus</p>
               </div>
               <div className="pl-4 sm:pl-5 border-l-2 border-viola-gold/40">
-                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Verbindet Altes Meister-Bildsprache mit moderner Technologie</p>
+                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Verschmilzt die Bildsprache Alter Meister mit heutiger Technik</p>
               </div>
             </div>
           </div>

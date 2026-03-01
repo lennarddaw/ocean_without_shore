@@ -21,7 +21,7 @@ export default function TableOfContentsSlide() {
 
         <div className="space-y-0">
           {sections.map((s, i) => (
-            <div key={i} className="flex items-baseline gap-8 py-4 border-b border-white/5 last:border-0">
+            <div key={i} className="flex items-baseline gap-8 py-4 border-b border-black/8 last:border-0">
               <span className="text-viola-gold/50 text-xl font-mono w-10 shrink-0">{s.num}</span>
               <span className="text-viola-light text-3xl font-light">{s.title}</span>
             </div>

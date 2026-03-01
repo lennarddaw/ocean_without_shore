@@ -30,7 +30,7 @@ export default function WorkDataSlide() {
 
           <div className="space-y-0">
             {data.map((d, i) => (
-              <div key={i} className="flex flex-col sm:flex-row gap-1 sm:gap-6 py-2 sm:py-3 border-b border-white/5">
+              <div key={i} className="flex flex-col sm:flex-row gap-1 sm:gap-6 py-2 sm:py-3 border-b border-black/8">
                 <span className="text-viola-gold text-sm sm:text-lg uppercase tracking-wider shrink-0 sm:w-28">{d.label}</span>
                 <span className="text-viola-light text-base sm:text-lg md:text-xl">{d.value}</span>
               </div>

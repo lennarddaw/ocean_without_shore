@@ -17,16 +17,16 @@ export default function ConclusionSlide() {
 
             <div className="space-y-3 sm:space-y-4">
               <div className="pl-4 sm:pl-5 border-l-2 border-viola-gold/40">
-                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Synthese lebenslanger Themen</p>
+                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Bündelt die Themen seines ganzen Lebens</p>
               </div>
               <div className="pl-4 sm:pl-5 border-l-2 border-viola-gold/40">
-                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Technische Kulmination — Spiegel-Prisma</p>
+                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Technischer Höhepunkt — das Spiegel-Prisma-System</p>
               </div>
               <div className="pl-4 sm:pl-5 border-l-2 border-viola-gold/40">
-                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Mystik + Buddhismus + Sufismus vereint</p>
+                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Christliche Mystik, Buddhismus und Sufismus fließen zusammen</p>
               </div>
               <div className="pl-4 sm:pl-5 border-l-2 border-viola-gold/40">
-                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Raum der Verlangsamung & Kontemplation</p>
+                <p className="text-viola-light text-base sm:text-lg md:text-2xl">Ein Ort zum Innehalten und Nachdenken</p>
               </div>
             </div>
 
@@ -37,7 +37,7 @@ export default function ConclusionSlide() {
               <cite className="text-viola-muted text-base sm:text-lg mt-3 block not-italic">— Bill Viola</cite>
             </blockquote>
 
-            <p className="text-viola-muted text-base sm:text-lg md:text-xl pt-3 sm:pt-4 border-t border-white/5">
+            <p className="text-viola-muted text-base sm:text-lg md:text-xl pt-3 sm:pt-4 border-t border-black/8">
               150+ Werke · 40+ Jahre · † 2024
             </p>
           </div>

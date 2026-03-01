@@ -17,11 +17,11 @@ export default function InterpretationSlide() {
           <div className="space-y-3 sm:space-y-5">
             <div className="pl-4 sm:pl-5 border-l-2 border-viola-gold/40">
               <h4 className="text-viola-gold text-base sm:text-lg md:text-xl mb-1">Universalität</h4>
-              <p className="text-viola-light text-base sm:text-lg md:text-2xl">24 Performer — Grenze für die ganze Menschheit</p>
+              <p className="text-viola-light text-base sm:text-lg md:text-2xl">24 verschiedene Performer — die Grenze betrifft jeden Menschen</p>
             </div>
             <div className="pl-4 sm:pl-5 border-l-2 border-viola-gold/40">
               <h4 className="text-viola-gold text-base sm:text-lg md:text-xl mb-1">Das Erhabene</h4>
-              <p className="text-viola-light text-base sm:text-lg md:text-2xl">Überwältigt rationale Erfassbarkeit (Burke/Kant)</p>
+              <p className="text-viola-light text-base sm:text-lg md:text-2xl">Geht über das rational Fassbare hinaus (Burke/Kant)</p>
             </div>
             <div className="pl-4 sm:pl-5 border-l-2 border-viola-gold/40">
               <h4 className="text-viola-gold text-base sm:text-lg md:text-xl mb-1">Gesamtkunstwerk</h4>
@@ -29,7 +29,7 @@ export default function InterpretationSlide() {
             </div>
             <div className="pl-4 sm:pl-5 border-l-2 border-viola-gold/40">
               <h4 className="text-viola-gold text-base sm:text-lg md:text-xl mb-1">Intermedialität</h4>
-              <p className="text-viola-light text-base sm:text-lg md:text-2xl">Analog/Digital · Sakral/Säkular — Grenzen aufgelöst</p>
+              <p className="text-viola-light text-base sm:text-lg md:text-2xl">Analog trifft Digital, Sakral trifft Säkular — alle Grenzen verschwimmen</p>
             </div>
 
             <blockquote className="border-l-2 border-viola-gold/40 pl-4 sm:pl-6 py-3 mt-4">

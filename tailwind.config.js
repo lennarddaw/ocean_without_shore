@@ -8,14 +8,14 @@ export default {
     extend: {
       colors: {
         viola: {
-          black: '#0a0a0f',
-          deep: '#1a1a2e',
-          gold: '#d4a574',
-          water: '#4a90d9',
-          light: '#e8e8e8',
-          muted: '#8888a0',
-          highlight: '#f0c987',
-          surface: '#12121f',
+          black: '#f8f7f4',
+          deep: '#f0ede8',
+          gold: '#a07040',
+          water: '#2e6d9e',
+          light: '#1a1a2e',
+          muted: '#6b6b80',
+          highlight: '#8a6530',
+          surface: '#edeae4',
         }
       },
       fontFamily: {

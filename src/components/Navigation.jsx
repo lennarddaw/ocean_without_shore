@@ -7,12 +7,12 @@ export default function Navigation({ currentSlide, totalSlides, onPrev, onNext, 
     <div className={`fixed bottom-0 left-0 right-0 z-50 flex items-center justify-between px-3 sm:px-6 py-3 sm:py-4 ${
       isFirstSlide
         ? 'bg-transparent'
-        : 'bg-viola-black/80 backdrop-blur-sm border-t border-white/5'
+        : 'bg-viola-black/80 backdrop-blur-sm border-t border-black/8'
     }`}>
       <button
         onClick={onPrev}
         disabled={currentSlide === 0}
-        className="p-2 rounded-full transition-all hover:bg-white/10 disabled:opacity-20 disabled:cursor-not-allowed"
+        className="p-2 rounded-full transition-all hover:bg-black/5 disabled:opacity-20 disabled:cursor-not-allowed"
       >
         <ChevronLeft className="w-5 h-5 text-viola-light" />
       </button>
@@ -39,7 +39,7 @@ export default function Navigation({ currentSlide, totalSlides, onPrev, onNext, 
       <button
         onClick={onNext}
         disabled={currentSlide === totalSlides - 1}
-        className="p-2 rounded-full transition-all hover:bg-white/10 disabled:opacity-20 disabled:cursor-not-allowed"
+        className="p-2 rounded-full transition-all hover:bg-black/5 disabled:opacity-20 disabled:cursor-not-allowed"
       >
         <ChevronRight className="w-5 h-5 text-viola-light" />
       </button>
