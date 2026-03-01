@@ -3,6 +3,7 @@ import Slide from '../components/Slide'
 
 export default function TitleSlide() {
   const [fullscreen, setFullscreen] = useState(false)
+  const [qrFullscreen, setQrFullscreen] = useState(false)
 
   return (
     <Slide>
@@ -18,6 +19,26 @@ export default function TitleSlide() {
           />
         </div>
       )}
+
+      {qrFullscreen && (
+        <div
+          className="fixed inset-0 z-50 bg-white flex items-center justify-center cursor-pointer"
+          onClick={() => setQrFullscreen(false)}
+        >
+          <img
+            src="/images/qr-code.png"
+            alt="QR Code"
+            className="w-[80vmin] h-[80vmin] object-contain"
+          />
+        </div>
+      )}
+
+      <img
+        src="/images/qr-code.png"
+        alt="QR Code"
+        className="fixed top-4 left-4 z-40 w-12 h-12 sm:w-16 sm:h-16 cursor-pointer hover:scale-110 transition-transform rounded"
+        onClick={() => setQrFullscreen(true)}
+      />
 
       <div className="relative flex flex-col items-center justify-center text-center max-w-5xl mx-auto">
         <div className="w-14 sm:w-20 h-px bg-viola-gold/40 mb-6 sm:mb-10" />
